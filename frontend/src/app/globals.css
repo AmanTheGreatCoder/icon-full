@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); */
+
+body {
+    font-family: 'HelveticaNowDisplay' !important;
+    letter-spacing: 0.5px;
+}
+
+.SF_Pro {
+    font-family: 'SF Pro Display';
+}
+
+.Outfit {
+    font-family: 'Outfit';
+}
+
+.button-linear-gradient {
+    background: linear-gradient(225.97deg, #00A0E3 5.39%, #0A79C1 42.04%, #14519E 80.16%);
+}
+
+.bg-linear-gradient {
+    background: linear-gradient(225.97deg, #00A0E3 5.39%, #0A79C1 42.04%, #0A78C0 42.05%, #14519E 80.16%);
+}
+
+.gradient-text {
+    background: linear-gradient(225.97deg, #00A0E3 5.39%, #0A79C1 42.04%, #14519E 80.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hidden {
+    scrollbar-width: none;
+}
+
+.marquee {
+    display: flex;
+    white-space: nowrap;
+    animation: scrollLeft 10s linear infinite;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee_One {
+    display: flex;
+    white-space: nowrap;
+    animation: scrollRight 10s linear infinite;
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.input-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.input-label {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    /* For Firefox */
+}
+
+.BEST_SALLER .swiper-pagination {
+    position: relative !important;
+    margin-top: 30px !important;
+    color: white !important;
+}
+
+.BEST_SALLER .swiper-pagination-bullet-active {
+    background: white !important;
+}
+
+.blue-slider-button .swiper-pagination {
+    position: relative !important;
+    margin-top: 30px !important;
+}
+
+.banner-slider .swiper-pagination-bullet-active {
+    background: white !important;
+}

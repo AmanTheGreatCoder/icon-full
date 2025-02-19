@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('/fonts/Outfit-Regular.woff2') format('woff2'),
+        url('/fonts/Outfit-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('/fonts/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+        url('/fonts/HelveticaNowDisplay-Regular.woff') format('woff');
+    font-style: normal;
+}

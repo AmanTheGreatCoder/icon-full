@@ -1,0 +1,7 @@
+export enum ProductType {
+	LAPTOP = 'LAPTOP',
+	DESKTOP_PC = 'DESKTOP_PC',
+	CUSTOM_PC = 'CUSTOM_PC',
+	ACCESSORY = 'ACCESSORY',
+	COMPONENT = 'COMPONENT',
+}

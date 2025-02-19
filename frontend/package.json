@@ -1,0 +1,43 @@
+{
+  "name": "micra-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 8090",
+    "build": "next build",
+    "start": "next start --port 8090",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@material-tailwind/react": "^2.1.9",
+    "@mui/material": "^5.16.7",
+    "@mui/styled-engine-sc": "^6.0.0",
+    "axios": "^1.7.9",
+    "formik": "^2.4.6",
+    "next": "14.2.6",
+    "owl.carousel": "^2.3.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-router": "^6.26.2",
+    "react-select": "^5.9.0",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.2",
+    "router": "^1.3.8",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.12",
+    "swiper": "^11.2.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
