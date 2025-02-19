@@ -39,7 +39,7 @@ export class CouponsService {
         where: {
           id: sellerId,
           role: Role.ADMIN,
-        },rrr
+        },
         select: { id: true },
       });
       if (!seller) {
